@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulários</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+<!--tag form para abrir o formulário, uma vez preenchido levará o usuário para a página definida em action-->
+        <form action="obrigado.html" method="get">
+            <!--label e input para espaço de nome-->
+            <label for="">Nome: </label>
+            <input type="text" name="nome" required><br>
+            <!--label e input para digitar o email-->
+            <label for="">e-mail: </label>
+            <input type="email" name="email" required><br>
+            <!--label e select para o assunto. Tag select irá mostrar opções predefinidas para o usuário escolher, selected irá deixar a opção predefinida-->
+            <label for="">Assunto: </label>
+            <select name="Assunto" id="">
+                <option value="sugestao">Sugestão</option>
+                <option value="critica">Crítica</option>
+                <option value="elogio" selected>Elogio</option>
+            </select><br>
+            <!--label e textarea definem espaço para o usuário descrever a mensagem-->
+            <label for="">Mensagem:</label><br>
+            <textarea name="mensagem" id="" cols="30" rows="10" required></textarea><br>
+            <!--input com atributo submit define um botão para que o usuário envie a mensagem-->
+            <input type="submit" value="Enviar Mensagem"><br>
+        </form>
+</body>
+</html>
