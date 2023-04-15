@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(#D0E4F2, #707c92, #4A6491);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #1A1F2B;
+    color: #D0E4F2;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 32px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+a {
+    color: #D0E4F2;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #FA683C;
+    margin: 1px;
+    padding: 1px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    margin: 1px;
+    background-color: #4A6491;
+    padding: 5px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1A1F2B;
+    color: #D0E4F2;
+    padding: 15px;
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+
+#logo {
+    float: left;
+    margin-right: 0px;
+    margin-left: 10%;
+}
+
+p {
+    text-indent: 50px;
+}
+
+#introducao {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    background-color: #1A1F2B;
+    color: #D0E4F2;
+    border: 2px solid #4A6491;
+    padding: 1px;
+    width: 50%;
+}
+
+th, td {
+    border: 2px solid #4A6491;
+    border-collapse: collapse;
+}
+
+thead {
+    text-align: center;
+}
+
+#protocolos {
+    background-color: #1A1F2B;
+    color: #D0E4F2;
+    width: 50%;
+    padding: 2%;
+}
+
+#prot {
+    text-align: center;
+}
+
+#tabelalista {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#linguagens {
+    display: flex;
+    height: inherit;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #D0E4F2;
+}
+
+.ling {
+    text-align: center;
+}
+
+#phtml {
+    background-color: #4A6491;
+    width: 33.33%;
+    padding: 2.5%;
+}
+
+#htmllogo {
+    height: 70px;
+    width: 70px;
+    margin:auto; 
+}
+
+#pcss {
+    background-color: #FA683C;
+    color: #1A1F2B;
+    width: 33.33%;
+    padding: 2.5%;
+}
+
+#csslogo {
+    height: 70px;
+    width: 70px;
+    margin:auto; 
+}
+
+#pjs {
+    background-color: #D0E4F2;
+    color: #1A1F2B;
+    width: 33.33%;
+    padding: 2.5%;
+}
+
+#jslogo {
+    height: 70px;
+    width: 70px;
+    margin:auto; 
+}
+
+footer {
+    display: flex;
+    height: inherit;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.grey {
+    background-color: #9dacb6;
+    width: 25%;
+    padding: 0.5%;
+}
+
+.white {
+    background-color: #b5c7d3;
+    width: 25%;
+    padding: 0.5%;
+}

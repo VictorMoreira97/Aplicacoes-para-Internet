@@ -6,22 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Mão na Massa</title>
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-
+<header>
     <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
-
-    <nav>INÍCIO</nav>
-    <nav>HTML</nav>
-    <nav>TABELAS</nav>
-    <nav>Sobre: HTML, CSS3, JS</nav>
-    <nav>RODAPÉ</nav>
-    <nav>CONTATO</nav>
-    
     <h2>Tutorial para Iniciantes</h2>
+</header>
 
-    <img src="logo_html5.png" alt="HTML5" height="100px" width="100px">
+<img src="logo_html5.png" alt="HTML5" height="100px" width="100px" id="logo" style="display: flex;">
 
+<div id="menu">
+    <strong>
+        <a href="desafio.html"><nav>INÍCIO</nav></a>
+        <a href="desafio.html"><nav>HTML</nav></a>
+        <a href="desafio.html"><nav>TABELAS</nav></a>
+        <a href="desafio.html"><nav>Sobre: HTML, CSS3, JS</nav></a>
+        <a href="desafio.html"><nav>RODAPÉ</nav></a>
+        <a href="desafio.html"><nav>CONTATO</nav></a>
+    </strong>
+</div>
+    
+
+
+<div id="introducao">
     <p>
         <ins><strong>HTML</strong></ins> <em>(Linguagem de Marcação de HiperTexto)</em> é o bloco de construção mais básico da Web. <mark>Define o significado e a estrutura do conteúdo da web.</mark> documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para processamento a representação estruturada de hipermídia e conteúdo baseado em tempo. Os hipertextos são a junção de vários elementos - palavras, vídeos e conteúdos -, que, quando conectados, estabelecem uma rede de dados que permite a comunicação, o armazenamento e o compartilhamento de informações. Por exemplo, ao visitar um website, você encontra diversas informações com formatações diferentes, como parágrafos, bullets e fontes distinções. Pois estão, essa estruturação é realizada por meio do HTML.
     </p>
@@ -31,66 +40,140 @@
     <p>
         Imagine que você precisa construir um site do zero com imformações da sua empresa. Nesse caso, você precisará conhecer a estrutura do HTML, cirando um documento no bloco de notas e acrescentadno códigos - tags-, que indicação parágrafos, quebra de texto, espaçamento, imagens, entre outros. Em geral, em um único site, existem diversos documentos HTML, criando páginas como homepage, página de produto e informações sobre a empresa. Em cada aba, existe um código diferente. 
     </p>
+</div>
 
 <hr>
 
-<table border="1px">
+<section id="tabelalista" style="display: flex;">
+    <table>
+        <thead>
+            <tr>
+            <th colspan="2">Tabela de TAGs HTML</th>
+            </tr>
+        </thead>
+            
+        <tbody>
+            <tr>
+                <td>TAG HTML</td>
+                <td>Para que serve</td>
+            </tr>
+            
+            <tr>
+                <td>&lthtml&gt</td>
+                <td>Define o formato do documento como HTML</td>
+            </tr>
 
-    <thead>
-        <tr>
-        <th colspan="2">Tabela de TAGs HTML</th>
-        </tr>
-    </thead>
-        
-    <tbody>
-        <tr>
-            <td>TAG HTML</td>
-            <td>Para que serve</td>
-        </tr>
-        
-        <tr>
-            <td>&lthtml&gt</td>
-            <td>Define o formato do documento como HTML</td>
-        </tr>
+            <tr>
+                <td>&lthead&gt</td>
+                <td>Define a área de configuração de um docuetno HTML</td>
+            </tr>
 
-        <tr>
-            <td>&lthead&gt</td>
-            <td>Define a área de configuração de um docuetno HTML</td>
-        </tr>
+            <tr>
+                <td>&ltbody&gt</td>
+                <td>Define a área de conteúdo de documento HTML</td>
+            </tr>
 
-        <tr>
-            <td>&ltbody&gt</td>
-            <td>Define a área de conteúdo de documento HTML</td>
-        </tr>
+            <tr>
+                <td>&lta&gt</td>
+                <td>Define a área de conteúdo de um documento HTML</td>
+            </tr>
 
-        <tr>
-            <td>&lta&gt</td>
-            <td>Define a área de conteúdo de um documento HTML</td>
-        </tr>
+            <tr>
+                <td>&ltimg&gt</td>
+                <td>Define uma imagem dentro de um documento HTML</td>
+            </tr>
 
-        <tr>
-            <td>&ltimg&gt</td>
-            <td>Define uma imagem dentro de um documento HTML</td>
-        </tr>
+            <tr>
+                <td>&ltdiv&gt</td>
+                <td>Eleento que divide e organiza conteúdos dentro de um doc HTML</td>
+            </tr>
+            
+        <tbody>
+    </table>
 
-        <tr>
-            <td>&ltdiv&gt</td>
-            <td>Eleento que divide e organiza conteúdos dentro de um doc HTML</td>
-        </tr>
-        
-    <tbody>
- </table>
-
-<section>
-    <p><strong>Top 5 protocolos</strong></p>
-    <Ul>
-        <li>HTTP - HyperText Transfer Protocol</li>
-        <li>FTP - File Transfer Protocol</li>
-        <li>POP - Post Office Protocol</li>
-        <li>SMTP - Simple Mail Transfer Protocol</li>
-        <li>IMAP - Internet Message Access Protocol</li>
-    </Ul>
+    <section id="protocolos">
+        <p id="prot"><strong>Top 5 protocolos</strong></p>
+        <Ul>
+            <li>FTP - File Transfer Protocol</li>
+            <li>DHCP - Dynamic Host Configuration Protocol</li>
+            <li>DNS - Domain Name System</li>
+            <li>NFS - Network File System</li>
+            <li>SMTP - Simple Mail Transfer Protocol</li>
+            <li>POP3 - Post Office Protocol-3</li>
+            <li>SNMP - Simple Network Management Protocol</li>
+            <li>HTTP Hyper Text Transfer Protocol</li>
+            <li>BGP - Border Gateway Protocol</li>
+            <li>RIP - Routing Information Protocol</li>
+        </Ul>
+    </section>
 </section>
+
+<section id="linguagens">
+
+    <section id="phtml">
+
+        <img src="icon.ico" alt="html logo" id="htmllogo">
+
+        <h2 class="ling">HTML</h2>
+        <p>HTML é uma linguagem de macarção utilizada na construção de páginas na Web. Docuemntos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HtTime s SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p>
+
+    </section>
+    <section id="pcss">
+
+        <img src="logo_css.png" alt="css logo" id="csslogo">
+
+        <h2 class="ling">CSS</h2>
+        <p>Cascating Style Sheets (CSS) é usado para formatar o layout de uma página da web. Com CSS, você pode controlar a cor, a fonte, o tamanho do texto, o espaçamenteo entre os elementos, como os elementos são posicionados e dispostos, quais imagens de fundo ou cores de fundo devem ser usadas, exibições diferentes para dipositivos e tamanhos de tela diferents e muito mais!</p>
+    </section>
+    <section id="pjs">
+
+        <img src="jslogo.png" alt="js logo" id="jslogo">
+
+        <h2 class="ling">JavaScript</h2>
+        <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das principais tecnologias da World Wide Web.</p>
+    </section>
+</section>
+
+<footer>
+    <section class="grey">
+        <h3>Sobre</h3>
+        <ul>
+            <li>🖧Hospedagem</li>
+            <li>🛒Loja Oficial</li>
+            <li>🔏Política de Privacidade</li>
+            <li>📲Fale Conosco</li>
+        </ul>
+    </section>
+
+    <section class="white">
+        <h3>Opções</h3>
+        <ul>
+            <li>🌐Teste de Velocidade</li>
+            <li>🖹Conversosr de Texto</li>
+            <li>⌨️Contador de Caracteres</li>
+            <li>💬Botão WhatsApp</li>
+        </ul>
+
+    </section>
+    <section class="grey">
+        <h3>Categorais</h3>
+        <ul>
+            <li>🎨Desing</li>
+            <li>📣Marketing</li>
+            <li>💻Programação</li>
+            <li>👨🏾‍🏫Tutoriais</li>
+        </ul>
+    </section>
+    <section class="white">
+        <h3>Contatos</h3>
+        <ul>
+            <li>📚e-BOOKs</li>
+            <li>20 Leis de UX</li>
+            <li>Introdução ao Bootstrap</li>
+            <li>Fale Conosto</li>
+        </ul>
+    </section>
+</footer>
 
 </body>
 </html>
