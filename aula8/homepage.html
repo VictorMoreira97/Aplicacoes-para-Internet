@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Mão na Massa</title>
-    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <title>HTML Linguagem de Marcação de Hipertexto</title>
+    <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -15,22 +15,26 @@
     <h2>Tutorial para Iniciantes</h2>
 </header>
 
-<img src="logo_html5.png" alt="HTML5" height="100px" width="100px" id="logo" style="display: flex;">
-
 <div id="menu">
     <strong>
-        <a href="desafio.html"><nav>INÍCIO</nav></a>
-        <a href="desafio.html"><nav>HTML</nav></a>
-        <a href="desafio.html"><nav>TABELAS</nav></a>
-        <a href="desafio.html"><nav>Sobre: HTML, CSS3, JS</nav></a>
-        <a href="desafio.html"><nav>RODAPÉ</nav></a>
-        <a href="desafio.html"><nav>CONTATO</nav></a>
+        <a href="homepage.html"><nav>🏠INÍCIO</nav></a>
+        <a href="homepage.html"><nav>🖥️HTML</nav></a>
+        <a href="homepage.html"><nav>📊TABELAS</nav></a>
+        <a href="homepage.html"><nav>🤔Sobre: HTML, CSS3, JS</nav></a>
+        <a href="homepage.html"><nav>📑RODAPÉ</nav></a>
+        <a href="contato.html"><nav>📲CONTATO</nav></a>
     </strong>
 </div>
     
 
 
 <div id="introducao">
+
+    <h2>O que é HTML?</h2>
+
+    <img src="imagens/logo_html5.png" alt="HTML5" height="100px" width="100px" id="logo" style="display: flex;">
+
+
     <p>
         <ins><strong>HTML</strong></ins> <em>(Linguagem de Marcação de HiperTexto)</em> é o bloco de construção mais básico da Web. <mark>Define o significado e a estrutura do conteúdo da web.</mark> documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para processamento a representação estruturada de hipermídia e conteúdo baseado em tempo. Os hipertextos são a junção de vários elementos - palavras, vídeos e conteúdos -, que, quando conectados, estabelecem uma rede de dados que permite a comunicação, o armazenamento e o compartilhamento de informações. Por exemplo, ao visitar um website, você encontra diversas informações com formatações diferentes, como parágrafos, bullets e fontes distinções. Pois estão, essa estruturação é realizada por meio do HTML.
     </p>
@@ -112,25 +116,38 @@
 
     <section id="phtml">
 
-        <img src="icon.ico" alt="html logo" id="htmllogo">
+    
 
         <h2 class="ling">HTML</h2>
+
+        <img src="imagens/icon.ico" alt="html logo" id="htmllogo">
+
         <p>HTML é uma linguagem de macarção utilizada na construção de páginas na Web. Docuemntos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HtTime s SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p>
+
+        <img src="imagens/codehtml.png" alt="Código HTML" class="code">
 
     </section>
     <section id="pcss">
 
-        <img src="logo_css.png" alt="css logo" id="csslogo">
-
         <h2 class="ling">CSS</h2>
+
+        <img src="imagens/logo_css.png" alt="css logo" id="csslogo">
+
         <p>Cascating Style Sheets (CSS) é usado para formatar o layout de uma página da web. Com CSS, você pode controlar a cor, a fonte, o tamanho do texto, o espaçamenteo entre os elementos, como os elementos são posicionados e dispostos, quais imagens de fundo ou cores de fundo devem ser usadas, exibições diferentes para dipositivos e tamanhos de tela diferents e muito mais!</p>
+
+        <img src="imagens/codecss.png" alt="Código CSS" class="code">
+
     </section>
     <section id="pjs">
 
-        <img src="jslogo.png" alt="js logo" id="jslogo">
-
         <h2 class="ling">JavaScript</h2>
+
+        <img src="imagens/jslogo.png" alt="js logo" id="jslogo">
+
         <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das principais tecnologias da World Wide Web.</p>
+
+        <img src="imagens/codejs.png" alt="Código JavaScript" class="code">
+
     </section>
 </section>
 
@@ -141,7 +158,7 @@
             <li>🖧Hospedagem</li>
             <li>🛒Loja Oficial</li>
             <li>🔏Política de Privacidade</li>
-            <li>📲Fale Conosco</li>
+            <a href="contato.html" class="footlink"><li>📲Fale Conosco</li></a>
         </ul>
     </section>
 
@@ -170,7 +187,7 @@
             <li>📚e-BOOKs</li>
             <li>20 Leis de UX</li>
             <li>Introdução ao Bootstrap</li>
-            <li>Fale Conosto</li>
+            <a href="contato.html" class="footlink"><li>📲Fale Conosco</li></a>
         </ul>
     </section>
 </footer>

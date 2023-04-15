@@ -1,18 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Verdana, Arial, Helvetica, sans-serif;
     text-align: justify;
-    background-image: linear-gradient(#D0E4F2, #707c92, #4A6491);
+    background-image: linear-gradient(white, #D0E4F2, #42628C, #182859 );
     background-attachment: fixed;
 }
 
 header {
-    background-color: #1A1F2B;
+    background-color: #182859;
     color: #D0E4F2;
     text-align: center;
     font-size: 1.5em;
     padding: 32px;
     margin-left: 10%;
     margin-right: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #0D0D0D;
 
 }
 
@@ -21,59 +23,75 @@ a {
     text-decoration: none;
 }
 
+.footlink {
+    color: #0D0D0D;
+}
+
+.footlink:hover {
+    color: #3866F2;
+}
+
 a:hover {
-    background-color: #FA683C;
-    margin: 1px;
-    padding: 1px;
-    display: inline-block;
+    color: #3866F2;
+    text-decoration: underline;
+
 }
 
 nav {
     display: inline-block;
     margin: 1px;
-    background-color: #4A6491;
+    background-color: #42628C;
     padding: 5px;
+    border-radius: 10px;
 }
 
 #menu {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background-color: #1A1F2B;
+    background-color: #182859;
     color: #D0E4F2;
     padding: 15px;
     margin-top: 1%;
     margin-right: 10%;
     margin-bottom: 1%;
     margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #0D0D0D;
+}
+
+.code {
+    size-adjust: inherit;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #0D0D0D;
+    height: min-content;
 }
 
 #logo {
     float: left;
-    margin-right: 0px;
-    margin-left: 10%;
-}
-
-p {
-    text-indent: 50px;
 }
 
 #introducao {
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+    background-color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px #42628C;
 }
 
 table {
-    background-color: #1A1F2B;
+    background-color: #0D0D0D;
     color: #D0E4F2;
-    border: 2px solid #4A6491;
+    border: 2px solid #42628C;
     padding: 1px;
     width: 50%;
 }
 
 th, td {
-    border: 2px solid #4A6491;
+    border: 2px solid #42628C;
     border-collapse: collapse;
 }
 
@@ -82,7 +100,7 @@ thead {
 }
 
 #protocolos {
-    background-color: #1A1F2B;
+    background-color: #0D0D0D;
     color: #D0E4F2;
     width: 50%;
     padding: 2%;
@@ -110,7 +128,7 @@ thead {
 }
 
 #phtml {
-    background-color: #4A6491;
+    background-color: #182859;
     width: 33.33%;
     padding: 2.5%;
 }
@@ -118,12 +136,12 @@ thead {
 #htmllogo {
     height: 70px;
     width: 70px;
-    margin:auto; 
+    float: left;
 }
 
 #pcss {
-    background-color: #FA683C;
-    color: #1A1F2B;
+    background-color: #30478C;
+    color: #D0E4F2;
     width: 33.33%;
     padding: 2.5%;
 }
@@ -131,12 +149,12 @@ thead {
 #csslogo {
     height: 70px;
     width: 70px;
-    margin:auto; 
+    float: left;
 }
 
 #pjs {
-    background-color: #D0E4F2;
-    color: #1A1F2B;
+    background-color: #42628C;
+    color: #D0E4F2;
     width: 33.33%;
     padding: 2.5%;
 }
@@ -144,7 +162,7 @@ thead {
 #jslogo {
     height: 70px;
     width: 70px;
-    margin:auto; 
+    float: left;
 }
 
 footer {
@@ -165,4 +183,35 @@ footer {
     background-color: #b5c7d3;
     width: 25%;
     padding: 0.5%;
+}
+
+form {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px #42628C;
+}
+
+input, select, textarea {
+    display: flexbox;
+    align-items: center;
+    border: 5px 5px 5px #182859;
+    margin-left: 10%;
+}
+
+#obrigado {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aliceblue;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 3px 5px 4px #42628C;
+}
+
+#homeobg {
+    color: #30478C;
 }
