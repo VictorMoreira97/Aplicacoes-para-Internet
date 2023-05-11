@@ -1,3 +1,9 @@
+img {
+    display: inline;
+    width: 50px;
+    border: 0px;
+}
+
 table {
     color: #fff;
     border: 2px solid blueviolet;
